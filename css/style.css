@@ -1,0 +1,33 @@
+/* ===== CSS KUSTOM SIPUSTAKA ===== */
+
+/* Atur font dasar dan warna body */
+body {
+  font-family: 'Segoe UI', Tahoma, sans-serif;
+  background-color: #f8f9fa;
+  /* Warna abu-abu sangat muda sebagai background halaman */
+}
+
+/* Styling khusus untuk item sidebar yang aktif */
+.list-group-item.active {
+  background-color: #198754;
+  /* Hijau Bootstrap (--bs-success) */
+  border-color: #198754;
+}
+
+/* Efek hover pada kartu statistik */
+.card {
+  transition: transform 0.2s ease;
+  /* Animasi transisi halus 0.2 detik untuk properti transform */
+}
+
+.card:hover {
+  transform: translateY(-3px);
+  /* Saat dikursor, kartu naik 3px ke atas — efek "mengambang" */
+}
+
+/* Membuat progress bar terlihat lebih tebal */
+.progress {
+  height: 18px;
+  /* Tinggi default Bootstrap terlalu tipis, kita perbesar */
+  border-radius: 10px;
+}
